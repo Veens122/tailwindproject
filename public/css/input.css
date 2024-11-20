@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section.hero {
+  height: 150vh;
+  background-image: url("/public/img/event\ bg.jpg");
+  background-position: 100%;
+}
