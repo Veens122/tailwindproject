@@ -14,21 +14,21 @@
         rel="stylesheet">
 </head>
 
-<body></body>
-
-<section class="hero">
-    <!-- navbar -->
-    <nav class="pt-4 bg-white">
-        <div class=" flex flex-row justify-center">
+<body>
+    <!-- NavBar -->
+    <!-- md -->
+    <nav class="hidden md:flex md:flex-row justify-center bg-white">
+        <div class=" md:flex flex-row justify-center">
             <div class="flex justify-center flex-col"></div>
             <ul class="flex flex-row justify-evenly gap-x-8">
                 <li class="pt-12 "><a href="contact.html"
                         class="text-3xl text-orange-400 font-cont underline">Contact</a>
                 </li>
                 <li class="pt-12"><a href="services.html"
-                        class="text-3xl text-orange-400 font-cont underline">Services</a></li>
+                        class="text-3xl text-orange-400 font-cont underline">Services</a>
+                </li>
                 <div class="flex flex-col justify-center items-center">
-                    <div>
+                    <div class="pt-4">
                         <a href="index.html"><img src="./img/event logo.png" alt="" class="size-28 items-center" /></a>
                     </div>
                     <span
@@ -42,6 +42,151 @@
             </ul>
         </div>
     </nav>
-</section>
+    <!-- mobie -->
+    <nav class=" md:hidden py-0 bg-white">
+        <div class=" flex flex-col items-center justify-center">
+            <!-- <div class="flex justify-center flex-col"></div> -->
+            <div class="flex flex-col  items-center">
+                <div class="pt-6">
+                    <a href="index.html"><img src="./img/event logo.png" alt="" class="size-24 items-center" /></a>
+                </div>
+                <span class="items-center text-4xl mx-auto text-orange-400 w-full py-6 font-fancy ">Peaceful
+                    Veens Event</span>
+            </div>
+            <ul class="flex flex-col items- ">
+                <li class=" "><a href="contact.html" class="text-3xl text-orange-400 font-cont underline">Contact</a>
+                </li>
+                <li class="py-6"><a href="services.html"
+                        class="text-3xl text-orange-400 font-cont underline">Services</a>
+                </li>
+
+                <li class="pb-6"><a href="about.html" class="text-3xl text-orange-400 font-cont underline">About Us</a>
+                </li>
+                <li class=""><a href="book.html" class="text-3xl text-orange-400 font-cont underline">Book now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">
+
+
+        <div class="  flex flex-col        md:px-5  md:mt-0 md:flex-row md:gap-x-8 md:ml-20 md:w-1/2">
+
+            <!-- first left -->
+            <div
+                class=" flex relative flex-col pt-96 justify-center items-center      md:relative md:w-1/2 md:pt-[200px] ">
+                <div class=" absolute    md:absolute md:z-10">
+                    <img src="./img/PV event.PNG" alt="">
+                </div>
+                <div
+                    class=" flex flex-col absolute px-4  md:absolute md:text-orange-400 md:flex md:flex-col md:justify-center md:pt-6 md:z-50 md:w-80 md:items-center md:align-bottom md:px-8">
+                    <h1 class="py-5 text-3xl underline font-cont">PLANNING</h1>
+                    <p class="font-cont text-2xl">Lorem, ipsum dolor
+                        sit
+                        amet consectetur
+                        adipisicing elit.
+                        Ipsum quae quas facilis distinctio. Optio delectus laudantium architecto officiis nobis
+                        aperiam?
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- second right -->
+            <div
+                class="flex relative flex-col pt-[250px]       md:flex md:flex-col md:w-1/2 md:h-96 md:justify-end md:mt-[400px]">
+                <div class=" relative           md:flex md:flex-col md:relative md:items-end ">
+                    <div class=" absolute ">
+                        <img src="./img/image event 2.PNG" alt="" class="md:object-fit md:h-96">
+                    </div>
+                    <div
+                        class="flex flex-col absolute px-4        md:absolute md:flex md:flex-col md:pt-32 md:justify-center items-center text-purple-950 font-cont">
+                        <h1 class="underline items-center text-3xl">PARTY OUTFIT</h1>
+                        <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis minima
+                            expedita magnam
+                            reiciendis, cum odit. Similique tempora alias libero delectus?</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <!-- second div -->
+        <div class="flex flex-col pt-[100px]      md:relative md:flex-row md:w-1/2 md:ml-20  ">
+
+            <!-- Third Left -->
+
+            <div
+                class="flex flex-col relative pt-[250px]     justify-center md:pt-16 md:relative md:justify-start items-start md:flex-row  ">
+                <div
+                    class="        md:relative  md:flex md:justify-start md:ml-5 md:items-start md:flex-col md:w-[295px] md:h-96  md:-top-32 ">
+                    <div class="absolute">
+                        <img src="./img/image event.PNG" alt="" class="  md:w-80 md:h-96">
+                    </div>
+                    <div class="absolute md:absolute justify-center items-center md:px-4 flex flex-col">
+                        <h1 class=" text-3xl font-cont underline text-orange-400 items-center">CAKE</h1>
+                        <p class="text-2xl text-orange-400 font-cont">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Reiciendis accusantium ex quasi
+                            neque, praesentium ducimus in et enim perferendis voluptas?</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Fourth Right -->
+
+            <div
+                class=" flex flex-col pt-[400px] justify-center items-center           md:flex md:flex-col md:h-96 md:items-end md:ml-10 md:justify-end">
+                <div
+                    class="justify-center items-center flex flex-col      md:relative md:flex  md:flex-col  md:w-[295px] h-96  md:top-[50px] ">
+                    <div class="absolute">
+                        <img src="./img/pve.PNG" alt="" class=" md:w-80 md:h-96">
+                    </div>
+                    <div
+                        class="absolute justify-center items-center flex flex-col       md:justify-center md:items-center md:flex md:flex-col md:absolute md:px-4">
+                        <h1 class=" text-3xl font-cont underline text-orange-400 items-center">DJ/MC</h1>
+                        <p class="text-center text-2xl text-orange-400 font-cont">Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Veniam
+                            laudantium illo minus
+                            necessitatibus tempore eum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+    <!-- <div class=" flex-row w-1/2 pt-64 flex justify-end">
+
+        <div class="flex relative justify-center">
+            <div class="absolute  z-50">
+                <img src="./img/PV event.PNG">
+            </div>
+            <div
+                class="absolute text-orange-400 flex flex-col justify-center pt-6 z-50 w-80 items-center align-bottom px-8">
+                <h1 class="py-5 text-3xl underline font-cont">PARTY OUTFIT</h1>
+                <p class="font-cont text-2xl">Lorem, ipsum dolor
+                    sit
+                    amet consectetur
+                    adipisicing elit.
+                    Ipsum quae quas facilis distinctio. Optio delectus laudantium architecto officiis nobis
+                    aperiam?
+
+                </p>
+            </div>
+
+        </div>
+
+    </div> -->
+</body>
 
 </html>

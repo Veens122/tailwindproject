@@ -3,7 +3,22 @@
 @tailwind utilities;
 
 section.hero {
-  height: 150vh;
+  height: 140vh;
   background-image: url("/public/img/event\ bg.jpg");
   background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+}
+
+/* mobile screen */
+@media (max-width: 480px) {
+  section.hero {
+    background-image: url("/public/img/event\ bg.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: left;
+    background-position: 50%;
+  }
 }
